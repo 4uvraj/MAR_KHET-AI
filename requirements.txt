@@ -1,0 +1,9 @@
+pandas
+scikit-learn
+joblib
+streamlit
+requests
+langchain
+langchain-huggingface
+python-dotenv
+matplotlib
