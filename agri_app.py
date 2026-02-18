@@ -9,6 +9,11 @@ from app.predict import predict_price
 if "sidebar_open" not in st.session_state:
     st.session_state.sidebar_open = True
 
+toggle_col1, toggle_col2 = st.columns([9,1])
+
+with toggle_col2:
+    if st.button("☰"):
+        st.session_state.sidebar_open = not st.session_state.sidebar_open
 
 # ---------------- PAGE CONFIG ----------------
 st.set_page_config(
