@@ -1,9 +1,10 @@
+streamlit
 pandas
+numpy
+matplotlib
 scikit-learn
 joblib
-streamlit
 requests
-langchain
-langchain-huggingface
 python-dotenv
-matplotlib
+altair
+rich
